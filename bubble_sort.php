@@ -23,11 +23,6 @@ class BubbleSort
 		return $arr;
 	}
 
-	public function test()
-	{
-		return $this->getArrayNumber();
-	}
-
 	public function sort($array = false)
 	{
 		$aArrayNumber = $array?: $this->getArrayNumber();
